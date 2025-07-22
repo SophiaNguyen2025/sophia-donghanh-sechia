@@ -1,70 +1,47 @@
-body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f9f9f9;
+/* --- RESET --- */
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f8f8f8;
   color: #333;
+  padding: 20px;
 }
 
-/* Header với nền ảnh + chữ trắng */
+/* --- HEADER --- */
 header {
-  background: url('cover.jpg') center/cover no-repeat;
-  padding: 100px 20px;
-  color: white;
+  background-color: #cce4ff; /* nền xanh nhẹ */
+  padding: 20px;
   text-align: center;
+  border-radius: 12px;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  color: #003366; /* màu xanh đậm nổi bật */
+  font-size: 2em;
   font-weight: bold;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.6);
 }
 
-/* Nếu chị dùng class .header ở phần nào khác */
-.header {
-  text-align: center;
-  padding: 2rem;
-  background-color: #e0f7fa;
+/* --- SECTION --- */
+section {
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
 }
 
-.header h1 {
-  margin: 0;
-  font-size: 2rem;
-  color: #00796b;
+h2 {
+  color: #004080; /* màu đậm hơn cho tiêu đề phụ */
+  margin-bottom: 10px;
 }
 
-/* Phần dịch vụ */
-.services {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 2rem;
-  padding: 2rem;
-}
-
-.service-card {
-  background-color: #ffffff;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-  padding: 1.5rem;
-  max-width: 300px;
-  flex: 1 1 250px;
-  transition: transform 0.3s;
-}
-
-.service-card:hover {
-  transform: translateY(-5px);
-}
-
-.service-card h2 {
-  margin-top: 0;
-  color: #00796b;
-}
-
-.service-card p {
-  color: #666;
-}
-
-/* Footer */
-.footer {
-  text-align: center;
-  padding: 1rem;
-  background-color: #eeeeee;
-  font-size: 0.9rem;
+p {
+  margin-bottom: 10px;
 }
