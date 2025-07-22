@@ -1,0 +1,62 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.header {
+  text-align: center;
+  padding: 2rem;
+  background-color: #e0f7fa;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 2rem;
+  color: #00796b;
+}
+
+.header p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.service-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  padding: 1.5rem;
+  max-width: 300px;
+  flex: 1 1 250px;
+  transition: transform 0.3s;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+.service-card h2 {
+  margin-top: 0;
+  color: #00796b;
+}
+
+.service-card p {
+  color: #666;
+}
+
+.footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #eeeeee;
+  font-size: 0.9rem;
+}
