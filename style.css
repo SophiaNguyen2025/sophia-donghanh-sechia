@@ -5,14 +5,18 @@ body {
   padding: 0;
   color: #333;
 }
+
+/* Header với nền ảnh + chữ trắng */
 header {
-  background-color: rgba(0, 0, 0, 0.4);
-  color: green;
-  padding: 20px;
+  background: url('cover.jpg') center/cover no-repeat;
+  padding: 100px 20px;
+  color: white;
   text-align: center;
   font-weight: bold;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.6);
 }
+
+/* Nếu chị dùng class .header ở phần nào khác */
 .header {
   text-align: center;
   padding: 2rem;
@@ -25,14 +29,7 @@ header {
   color: #00796b;
 }
 
-header {
-  background: url('cover.jpg') center/cover no-repeat;
-  padding: 100px 20px;
-  color: white;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.6);
-}
-}
-
+/* Phần dịch vụ */
 .services {
   display: flex;
   flex-wrap: wrap;
@@ -64,6 +61,7 @@ header {
   color: #666;
 }
 
+/* Footer */
 .footer {
   text-align: center;
   padding: 1rem;
