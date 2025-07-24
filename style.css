@@ -45,3 +45,11 @@ h2 {
 p {
   margin-bottom: 10px;
 }
+footer {
+  text-align: center;
+  width: 100%;
+  display: block;
+}
+footer * {
+  margin: 0 auto;
+}
