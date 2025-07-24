@@ -4,35 +4,38 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Sophia Nguyễn – Đồng hành và Sẻ chia</title>
-  <link href="style.css" rel="stylesheet">
   <style>
     * {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
-      font-family: 'Libre Franklin', sans-serif;
+      font-family: 'Segoe UI', sans-serif;
     }
+
     body {
-      background-color: #f4f6f9;
-      color: #333;
-      line-height: 1.6;
+      background-color: #1e1e1e;
+      color: #ffffff;
+      line-height: 1.7;
     }
+
     header {
-      background: url('https://source.unsplash.com/1600x600/?calm,conversation') no-repeat center/cover;
-      color: #f5f5f5;
+      background: url('https://source.unsplash.com/1600x600/?calm,night') no-repeat center/cover;
+      color: #ffffff;
       text-align: center;
       padding: 120px 20px 80px;
     }
+
     header h1 {
       font-size: 2.8rem;
       margin-bottom: 1rem;
-      text-shadow: 0 2px 6px rgba(0,0,0,0.4);
+      text-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
     }
+
     header p {
       font-size: 1.2rem;
       max-width: 700px;
       margin: 0 auto;
-      text-shadow: 0 1px 3px rgba(0,0,0,0.3);
+      text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
     }
 
     section {
@@ -41,17 +44,17 @@
       margin: auto;
       border-radius: 12px;
       margin-bottom: 40px;
-      background-color: #ffffff;
-      box-shadow: 0 4px 16px rgba(0,0,0,0.05);
+      background-color: #2b2b2b;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
     }
 
     section:nth-child(even) {
-      background-color: #f0f4f7;
+      background-color: #252525;
     }
 
     h2 {
       font-size: 1.9rem;
-      color: #204060;
+      color: #ffcc00;
       margin-bottom: 20px;
     }
 
@@ -59,7 +62,7 @@
       width: 100%;
       border-radius: 12px;
       margin: 20px 0;
-      box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
     }
 
     ul {
@@ -74,17 +77,17 @@
 
     .highlight {
       font-weight: bold;
-      color: #2a4f6e;
+      color: #fff;
       font-size: 1.2rem;
-      background-color: #e3f1ff;
+      background-color: #3a3a3a;
       padding: 12px 18px;
-      border-left: 5px solid #417d9c;
+      border-left: 5px solid #ffcc00;
       border-radius: 6px;
       margin-top: 20px;
     }
 
     .cta {
-      background: #e6f3fb;
+      background: #333;
       padding: 30px;
       border-radius: 10px;
       text-align: center;
@@ -98,8 +101,8 @@
 
     .cta a {
       display: inline-block;
-      background: #2b5d77;
-      color: white;
+      background: #ffcc00;
+      color: #000;
       padding: 12px 24px;
       border-radius: 8px;
       text-decoration: none;
@@ -108,31 +111,32 @@
     }
 
     .cta a:hover {
-      background: #1c3f55;
+      background: #e6b800;
     }
 
     footer {
       text-align: center;
       font-size: 0.9rem;
       padding: 20px;
-      background-color: #dde7ee;
-      color: #444;
+      background-color: #111;
+      color: #ccc;
     }
 
-    /* Zalo floating button */
     .zalo-button {
       position: fixed;
       bottom: 20px;
       right: 20px;
       z-index: 1000;
     }
+
     .zalo-button img {
       width: 60px;
       height: 60px;
       border-radius: 50%;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
       transition: transform 0.2s;
     }
+
     .zalo-button img:hover {
       transform: scale(1.05);
     }
@@ -218,7 +222,6 @@
     © 2025 Sophia Nguyễn – Be Friend & Support Service
   </footer>
 
-  <!-- Zalo Floating Button -->
   <div class="zalo-button">
     <a href="https://zalo.me/0977092182" target="_blank">
       <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Icon_of_Zalo.svg" alt="Zalo" />
