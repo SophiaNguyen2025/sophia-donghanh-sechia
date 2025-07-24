@@ -4,35 +4,35 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Sophia Nguyễn – Đồng hành và Sẻ chia</title>
-  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;600&display=swap" rel="stylesheet">
   <style>
     * {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
-      font-family: 'Quicksand', sans-serif;
+      font-family: 'Libre Franklin', sans-serif;
     }
     body {
-      background-color: #f2f7fb;
+      background-color: #f4f6f9;
       color: #333;
       line-height: 1.6;
     }
     header {
       background: url('https://source.unsplash.com/1600x600/?calm,conversation') no-repeat center/cover;
-      color: green;
+      color: #f5f5f5;
       text-align: center;
       padding: 120px 20px 80px;
     }
     header h1 {
-      font-size: 2.5rem;
+      font-size: 2.8rem;
       margin-bottom: 1rem;
-      text-shadow: 0 2px 6px rgba(0,0,0,0.3);
+      text-shadow: 0 2px 6px rgba(0,0,0,0.4);
     }
     header p {
       font-size: 1.2rem;
-      max-width: 600px;
+      max-width: 700px;
       margin: 0 auto;
-      text-shadow: 0 1px 3px rgba(0,0,0,0.2);
+      text-shadow: 0 1px 3px rgba(0,0,0,0.3);
     }
 
     section {
@@ -40,28 +40,28 @@
       max-width: 900px;
       margin: auto;
       border-radius: 12px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.04);
       margin-bottom: 40px;
+      background-color: #ffffff;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.05);
     }
 
     section:nth-child(even) {
-      background-color: #ffffff;
+      background-color: #f0f4f7;
     }
 
-    section:nth-child(odd) {
-      background-color: #eaf4f7;
-    }
-
-    section h2 {
-      font-size: 1.8rem;
-      color: #276678;
+    h2 {
+      font-size: 1.9rem;
+      color: #204060;
       margin-bottom: 20px;
     }
- .image-section img {
+
+    .image-section img {
       width: 100%;
       border-radius: 12px;
       margin: 20px 0;
-  
+      box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+    }
+
     ul {
       list-style-type: none;
       padding-left: 0;
@@ -74,11 +74,17 @@
 
     .highlight {
       font-weight: bold;
-      color: #3a6073;
+      color: #2a4f6e;
+      font-size: 1.2rem;
+      background-color: #e3f1ff;
+      padding: 12px 18px;
+      border-left: 5px solid #417d9c;
+      border-radius: 6px;
+      margin-top: 20px;
     }
 
     .cta {
-      background: #dff1ff;
+      background: #e6f3fb;
       padding: 30px;
       border-radius: 10px;
       text-align: center;
@@ -92,24 +98,43 @@
 
     .cta a {
       display: inline-block;
-      background: #276678;
+      background: #2b5d77;
       color: white;
-      padding: 10px 20px;
+      padding: 12px 24px;
       border-radius: 8px;
       text-decoration: none;
+      font-weight: 600;
       transition: background 0.3s ease;
     }
 
     .cta a:hover {
-      background: #1c4d5d;
+      background: #1c3f55;
     }
 
     footer {
       text-align: center;
       font-size: 0.9rem;
       padding: 20px;
-      background-color: #dceef4;
-      color: #555;
+      background-color: #dde7ee;
+      color: #444;
+    }
+
+    /* Zalo floating button */
+    .zalo-button {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 1000;
+    }
+    .zalo-button img {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      transition: transform 0.2s;
+    }
+    .zalo-button img:hover {
+      transform: scale(1.05);
     }
   </style>
 </head>
@@ -119,9 +144,11 @@
     <h1>Sophia Nguyễn – Đồng hành và Sẻ chia</h1>
     <p>“Một người để lắng nghe – Một điểm tựa tinh thần – Một người bạn đồng hành không phán xét.”</p>
   </header>
-<div class="image-section">
-  <img src="002.png" alt="Ảnh cover" />
-</div>
+
+  <div class="image-section">
+    <img src="002.png" alt="Ảnh cover" />
+  </div>
+
   <section>
     <h2>Giới thiệu dịch vụ</h2>
     <p>Bạn cần một người để chia sẻ, không cần lời khuyên?<br>
@@ -190,6 +217,13 @@
   <footer>
     © 2025 Sophia Nguyễn – Be Friend & Support Service
   </footer>
+
+  <!-- Zalo Floating Button -->
+  <div class="zalo-button">
+    <a href="https://zalo.me/0977092182" target="_blank">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Icon_of_Zalo.svg" alt="Zalo" />
+    </a>
+  </div>
 
 </body>
 </html>
